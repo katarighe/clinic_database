@@ -1,4 +1,18 @@
+<div align="center">
+  <h1><b>Clinic Database</b></h1>
+</div>
+
+## Getting Started
+This repository includes files with plain SQL that can be used to recreate a database:
+
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. 
+
+**Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+
 <a name="readme-top"></a>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -7,7 +21,13 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -60,15 +80,46 @@ The **Clinic Database** is a simple database that stores information about the a
 ## 💻 Getting Started <a name="getting-started"></a>
 Get ready to explore Clinic Database with these steps:
 
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. 
-
-**Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
 **Schema Diagram**
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need: PostgreSQL
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:ticoniq/clinic.git
+```
+
+### Install
+
+Install this project with: Install [PostgreSQL](https://www.postgresql.org/download/)
+
+### Usage
+
+To run the project, execute the following command:
+- Start the PostgreSQL server
+- Run psql
+- Create the database with: `CREATE DATABASE clinic;`
+- Connect to the database with: `\c clinic`
+- Create the tables with the queries from [schema_based_on_diagram.sql](./schema_based_on_diagram.sql)
+
+### Run tests
+
+To run tests, run the following command: **Not available**
+
+### Deployment
+
+You can deploy this project using: **Not available**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
