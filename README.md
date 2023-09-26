@@ -65,7 +65,8 @@ The **Clinic Database** is a simple database that stores information about the a
 
 > The three key features of this project include the following.
 
-- ***Query and update the animals table.**
+- **Query and update the paitents table.**
+- **Record of all patients**
 - **Query multiple tables.**
 - **Add "join table" for vists.**
 
