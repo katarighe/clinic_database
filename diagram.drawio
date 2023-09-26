@@ -91,9 +91,9 @@
                 <mxCell id="35" value="treatment_id INT" style="text;strokeColor=none;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=0;" parent="29" vertex="1">
                     <mxGeometry y="156" width="150" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=12;fontColor=#f7f7f8;startArrow=ERmany;startFill=0;endArrow=oval;endFill=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="35">
+                <mxCell id="36" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=12;fontColor=#f7f7f8;startArrow=ERmany;startFill=0;endArrow=oval;endFill=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="680" y="310" as="sourcePoint"/>
+                        <mxPoint x="630" y="310" as="sourcePoint"/>
                         <mxPoint x="490" y="590" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="520" y="620"/>
