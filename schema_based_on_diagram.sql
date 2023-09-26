@@ -61,5 +61,8 @@ ALTER TABLE treatments_histories ADD CONSTRAINT fk_treatment_id FOREIGN KEY (tre
 ALTER TABLE treatments_histories ADD CONSTRAINT fk_medical_history_id FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id);
 
 /* Add foreign key indexes for enhanced data integrity and data query optimization */
+CREATE INDEX idx_paitent_id ON medical_histories(patient_id);
+CREATE INDEX idx_medical_history_id ON invoices(medical_history_id);
+CREATE INDEX idx_invoice_id ON invoice_items(invoice_id);
+CREATE INDEX idx_invoice_items_id ON invoice_items(treatment_id);
 CREATE INDEX idx_treatment_id ON treatments_histories(treatment_id);
-CREATE INDEX idx_medical_history_id ON treatments_histories(medical_history_id);
