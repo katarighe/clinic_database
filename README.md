@@ -1,7 +1,3 @@
-<div align="center">
-  <h1><b>Clinic Database</b></h1>
-</div>
-
 ## Getting Started
 This repository includes files with plain SQL that can be used to recreate a database:
 
